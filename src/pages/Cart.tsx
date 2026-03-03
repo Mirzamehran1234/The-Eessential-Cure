@@ -366,7 +366,7 @@ const Cart = () => {
                             {/* Product Info */}
                             <div className="flex-1 text-center sm:text-left">
                                 <h3 className="font-heading text-xl font-bold text-foreground mb-1">The Essential Cure Hair Oil</h3>
-                                <p className="text-sm text-muted-foreground mb-4">100ml • 100% Natural Ingredients</p>
+                                <p className="text-sm text-muted-foreground mb-4"> • 100% Natural Ingredients</p>
                                 <div className="flex items-center justify-center sm:justify-start gap-3 bg-secondary/30 w-fit rounded-full px-4 py-2 mx-auto sm:mx-0">
                                     <button onClick={() => setQuantity(Math.max(1, quantity - 1))} className="text-foreground hover:text-primary transition-colors">
                                         <Minus size={16} />
@@ -557,3 +557,4 @@ const Cart = () => {
 };
 
 export default Cart;
+
